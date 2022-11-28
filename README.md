@@ -1,6 +1,8 @@
-#React-
+# React framer-motion 가이드 정리
 
-<a href="https://heodokyung.github.io/react-animation/">리액트 애니메이션(모션) 정리</a> 
+프로젝트 바로가기: <a href="https://heodokyung.github.io/react-animation/">리액트 애니메이션(모션) 정리</a> 
+
+***
 
 # Getting Started with Create React App
 
