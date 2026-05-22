@@ -1,4 +1,4 @@
-name: Deploy React Animation to GitHub Pages
+name: Deploy React Animation Guide to GitHub Pages
 
 on:
   push:
