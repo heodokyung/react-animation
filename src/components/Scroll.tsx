@@ -1,4 +1,4 @@
-import { motion, MotionValue, ScrollMotionValues, useTransform, useViewportScroll } from "framer-motion";
+import { motion, MotionValue, useTransform, useViewportScroll } from "framer-motion";
 import styled from "styled-components";
 
 const Box = styled(motion.div)`
@@ -13,7 +13,7 @@ const Box = styled(motion.div)`
 `;
 
 const Scroll = () => {
-  const { scrollX, scrollY, scrollXProgress, scrollYProgress }: ScrollMotionValues = useViewportScroll();
+  const { scrollYProgress } = useViewportScroll();
   const scale: MotionValue<number> = useTransform(scrollYProgress, [0, 1], [1, 3]);
 
   return <Box drag style={{ scale }} />;
